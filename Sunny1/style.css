@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.agencies,
+.result {
+    margin-bottom: 20px;
+}
+
+.agency {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agencySelect {
+    margin-right: 10px;
+}
+
+.result {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
